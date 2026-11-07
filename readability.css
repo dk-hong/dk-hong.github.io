@@ -1,0 +1,129 @@
+/* Reading scale shared by the research, engineering, and career sections. */
+body { font-size: 16px; }
+main { max-width: 1072px; padding-inline: 56px; }
+.intro { font-size: 17px; line-height: 1.85; max-width: none; }
+.intro p { margin-bottom: 20px; }
+.hero-links,.primary-link,.unavailable,.contact-links { font-size: 14px; }
+.small-placeholder,.hero-links .small-placeholder { font-size: 11px; }
+.eyebrow,.hero-meta .eyebrow,.field-label,.project-kind { font-size: 11px; }
+.motion-setting { font-size: 12px; }
+.interests { flex-wrap: wrap; gap: 12px 24px; padding-top: 24px; }
+.interests li { font-size: 14px; }
+.section { padding: 52px 0; }
+.section-heading h2,h2 { font-size: 34px; }
+.section-intro { font-size: 16px; line-height: 1.8; max-width: none; margin-bottom: 28px; }
+.text-link { font-size: 13px; }
+.section-heading { gap: 20px; flex-wrap: wrap; }
+.sidebar { padding-top: 30px; padding-bottom: 20px; overflow-y: auto; }
+.korean-name { font-size: 12px; }
+.sidebar-role { font-size: 13px; margin: 18px 0 22px; }
+.sidebar-role span { font-size: 12px; }
+nav a { font-size: 13px; padding-top: 8px; padding-bottom: 8px; }
+nav a span { font-size: 11px; }
+.sidebar-bottom>a { font-size: 12px; }
+.draft-label { font-size: 11px; }
+.research-item { padding: 30px 26px; }
+.research-item h3,.timeline-row h3,.project-copy h3 { font-size: 20px; line-height: 1.5; }
+.project-featured .project-copy h3 { font-size: 24px; }
+.research-description,.contribution>p,.experience-summary,.experience-highlights,.project-copy>p { font-size: 16px; line-height: 1.85; color: #61738c; }
+.contribution-label { font-size: 11px; }
+.contribution details { font-size: 14px; color: #7386a1; }
+.reference-list { list-style: none; padding-left: 0; font-size: 13px; line-height: 1.8; }
+.reference-list li { display: grid; grid-template-columns: 26px minmax(0,1fr); gap: 4px; margin: 12px 0; }
+.reference-list a { color: #587ec6; text-decoration: underline; text-underline-offset: 3px; }
+.venue,.authorship { font-size: 12px; }
+.research-meta { flex-wrap: wrap; gap: 8px 12px; }
+.research-detail { grid-template-columns: minmax(0,1fr) minmax(320px,.95fr); gap: 28px; }
+.timeline-row { grid-template-columns: 170px minmax(0,1fr); gap: 22px; padding-top: 24px; padding-bottom: 28px; }
+.timeline-date,.project-meta { font-size: 14px; }
+.role { font-size: 15px; }
+.experience-highlights li { margin-bottom: 12px; }
+.project-entry { padding: 32px 0; gap: 22px; }
+.project-index { font-size: 14px; min-width: 24px; }
+.project-meta { margin-bottom: 16px; gap: 8px 20px; }
+.project-contributions summary { font-size: 15px; padding: 8px 0; }
+.contribution-count { font-size: 12px; }
+.engineering-contributions strong { font-size: 16px; }
+.engineering-contributions p { font-size: 15px; color: #61738c; }
+.engineering-contributions a { font-size: 13px; }
+.engineering-contributions li { padding: 18px 0; }
+.project-repository { margin-top: 12px; white-space: normal; overflow-wrap: anywhere; max-width: 100%; }
+.filter { font-size: 13px; padding: 8px 11px; }
+.publication-note { font-size: 12px; }
+.publication-group { grid-template-columns: 70px minmax(0,1fr); padding: 30px 0; }
+.publication-year { font-size: 23px; }
+.publication-title { font-size: 17px; line-height: 1.6; }
+.publication-authors,.publication-venue { font-size: 14px; line-height: 1.8; }
+.education-details { font-size: 15px; line-height: 1.8; }
+.muted { font-size: 15px; }
+.record-group { padding: 30px 0; }
+.record-group h3 { font-size: 20px; margin-bottom: 20px; }
+.record-note { font-size: 13px; }
+.review-list,.skills-list { font-size: 15px; line-height: 1.8; }
+.review-list>div { padding: 10px 0; }
+.review-list dd { font-size: 14px; }
+.record-entry h4 { font-size: 16px; }
+.record-entry p,.record-date { font-size: 14px; }
+.patent-record { padding: 16px 0 22px; border-bottom: 1px solid var(--line); }
+.patent-record:last-child { border-bottom: 0; padding-bottom: 0; }
+.patent-record .record-entry { align-items: baseline; }
+.patent-record .record-entry>div { min-width: 0; }
+.patent-record a { color: #587ec6; overflow-wrap: anywhere; }
+.patent-inventors { font-style: italic; }
+.patent-inventors strong { color: #48648c; }
+.patent-family { margin-top: 6px; font-size: 13px; color: #7386a1; }
+.patent-family summary { cursor: pointer; width: fit-content; }
+.patent-family ul { list-style: none; padding: 6px 0 0; margin: 0; }
+.patent-family li { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 9px 0; }
+.skills-list>div { grid-template-columns: 145px minmax(0,1fr); padding: 10px 0; }
+.contact { padding: 40px 32px; }
+.contact .section-intro { max-width: 90%; }
+footer { font-size: 11px; }
+.concept-figure { padding: 16px; }
+.concept-title { font-size: 12px; max-width: 240px; }
+.concept-replay { font-size: 11px; padding: 5px 8px; }
+.concept-figure svg { max-height: 245px; margin-top: 18px; }
+.concept-figure figcaption { font-size: 13px; line-height: 1.8; }
+.hdx-legend,.qimera-legend,.optimization-goal { font-size: 11px; }
+.concept-note { font-size: 10px; flex-wrap: wrap; }
+@media(min-width:1600px) { main { max-width: 1072px; } }
+@media(max-width:1150px) {
+  main { padding-inline: 36px; }
+  .research-detail { grid-template-columns: 1fr; }
+  .concept-figure { max-width: 480px; }
+  .timeline-row { grid-template-columns: 1fr; gap: 10px; }
+}
+@media(max-width:760px) {
+  main { padding-inline: 22px; }
+  .mobile-header,.mobile-header button { font-size: 14px; }
+  .intro { font-size: 16px; }
+  .hero-meta { flex-wrap: wrap; }
+  .hero-meta .eyebrow { letter-spacing: 1px; }
+  .motion-setting { padding-left: 0; }
+  .section { padding: 40px 0; }
+  .section-heading h2,h2 { font-size: 30px; }
+  .section-intro { font-size: 15px; }
+  .research-item { padding: 24px 18px; }
+  .research-top { gap: 10px; }
+  .research-item h3,.timeline-row h3,.project-copy h3 { font-size: 19px; }
+  .research-description,.contribution>p,.experience-summary,.experience-highlights,.project-copy>p { font-size: 15px; }
+  .project-featured .project-copy h3 { font-size: 23px; }
+  .project-entry { gap: 12px; padding: 28px 0; }
+  .project-index { min-width: 20px; font-size: 12px; }
+  .project-meta,.timeline-date { font-size: 13px; }
+  .engineering-contributions li { flex-wrap: wrap; gap: 8px; }
+  .engineering-contributions strong { font-size: 15px; }
+  .engineering-contributions a { font-size: 13px; }
+  .publication-group { grid-template-columns: 1fr; gap: 14px; }
+  .publication-title { font-size: 16px; }
+  .publication-year { font-size: 21px; margin: 0; }
+  .filter { font-size: 12px; padding: 8px; }
+  .publication-toolbar { padding: 12px 8px; }
+  .review-list dd,.record-date { font-size: 13px; }
+  .skills-list>div { grid-template-columns: 1fr; gap: 4px; }
+  .concept-title { max-width: 190px; }
+  .concept-figure { padding: 14px; }
+  .concept-figure svg { max-height: 245px; }
+  .contact { padding: 32px 22px; }
+  .contact .section-intro { max-width: 100%; }
+}
