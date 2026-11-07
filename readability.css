@@ -3,6 +3,7 @@ body { font-size: 16px; }
 main { max-width: 1072px; padding-inline: 56px; }
 .intro { font-size: 17px; line-height: 1.85; max-width: none; }
 .intro p { margin-bottom: 20px; }
+.sidebar-portrait { display: block; width: 96px; height: 120px; object-fit: cover; border: 1px solid var(--line); border-radius: 12px 12px 12px 3px; background: var(--soft); }
 .hero-links,.primary-link,.unavailable,.contact-links { font-size: 14px; }
 .small-placeholder,.hero-links .small-placeholder { font-size: 11px; }
 .eyebrow,.hero-meta .eyebrow,.field-label,.project-kind { font-size: 11px; }
