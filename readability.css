@@ -70,7 +70,7 @@ nav a span { font-size: 11px; }
 .patent-record .record-entry { align-items: baseline; }
 .patent-record .record-entry>div { min-width: 0; }
 .patent-record a { color: #587ec6; overflow-wrap: anywhere; }
-.patent-inventors { font-style: italic; }
+.patent-inventors { font-style: normal; }
 .patent-inventors strong { color: #48648c; }
 .patent-family { margin-top: 6px; font-size: 13px; color: #7386a1; }
 .patent-family summary { cursor: pointer; width: fit-content; }
